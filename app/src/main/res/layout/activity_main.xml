@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7E84C0">
+
+        <ImageView
+            android:id="@+id/paddle"
+            android:layout_width="409dp"
+            android:layout_height="418dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-29dp"
+            android:src="@drawable/paddle" />
+
+        <ImageView
+            android:id="@+id/ball"
+            android:layout_width="194dp"
+            android:layout_height="149dp"
+            android:src="@drawable/ball" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

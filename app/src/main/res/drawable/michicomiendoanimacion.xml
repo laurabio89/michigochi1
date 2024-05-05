@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@drawable/michicomiendo1" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo2" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo4" android:duration="500"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo4" android:duration="500"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo2" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo4" android:duration="500"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+    <item android:drawable="@drawable/michicomiendo4" android:duration="500"/>
+    <item android:drawable="@drawable/michicomiendo3" android:duration="1000"/>
+</animation-list>

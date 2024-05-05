@@ -1,0 +1,23 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#808080" /> <!-- Color del fondo cuando se presiona -->
+            <corners android:radius="10dp" /> <!-- Esquinas redondeadas, ajusta el radio según desees -->
+        </shape>
+    </item>
+    <!-- Estado enfocado -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#B9C0E6" /> <!-- Color del fondo cuando está enfocado -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!-- Estado normal -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Color del fondo normal -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>
