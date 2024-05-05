@@ -106,6 +106,18 @@ public class juegoprincipal extends AppCompatActivity {
         // Iniciar música
         mediaPlayer = MediaPlayer.create(this, R.raw.musica);
         mediaPlayer.start();
+
+        // Configurar un listener para reiniciar la música cuando termine
+        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                // Reiniciar la reproducción de la música
+                mediaPlayer.seekTo(0); // Esto establece la posición de reproducción al inicio
+                mediaPlayer.start(); // Esto reinicia la reproducción
+            }
+        });
+
+        
     }
 
     @Override
